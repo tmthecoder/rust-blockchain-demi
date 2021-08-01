@@ -10,3 +10,10 @@ pub struct Account {
     /// Amount of tokens the account holds
     tokens: u128,
 }
+
+/// The type of account used
+/// Different types could represent different system roles
+pub enum AccountType {
+    /// A normal user
+    User
+}
