@@ -1,3 +1,8 @@
+use crate::core::block::Block;
+use std::collections::HashMap;
+use crate::core::account::{Account, AccountType};
+use crate::core::transaction::Transaction;
+
 /// The whole blockchain
 pub struct Blockchain {
     /// All of the accepted or valid blocks in the chain

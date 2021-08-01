@@ -1,3 +1,5 @@
+use crate::core::transaction::Transaction;
+
 /// A single block in the chain
 /// Contains a list of transactions
 pub struct Block {

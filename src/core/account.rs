@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 /// An account on the Blockchain
 /// The basic part of the world state
 pub struct Account {
