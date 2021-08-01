@@ -17,3 +17,15 @@ pub enum AccountType {
     /// A normal user
     User
 }
+
+/// Methods for the Account Struct
+impl Account {
+    /// Constructor
+    pub fn new(account_type: AccountType) -> Self {
+        Self {
+            tokens: 0,
+            acc_type: account_type,
+            store: HashMap::new()
+        }
+    }
+}
