@@ -2,6 +2,8 @@
 /// Made following the article here:
 /// https://hackernoon.com/rusty-chains-a-basic-blockchain-implementation-written-in-pure-rust-gk2m3uri
 
+use blockchain;
+
 fn main() {
     println!("Hello, world!");
 }
